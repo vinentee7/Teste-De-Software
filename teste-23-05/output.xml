@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.12.1 on win32)" generated="2026-05-23T10:46:32.438730" rpa="false" schemaversion="5">
+<suite id="s1" name="Web" source="C:\Users\samuel.vinente\Desktop\Teste-De-Software\teste-23-05\web.robot">
+<test id="s1-t1" name="Teste se Kedungjenar some ao pesquisar Danville" line="16">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:32.691451" level="INFO">Opening browser 'chrome' to base url 'https://www.testmuai.com/selenium-playground/bootstrap-dual-list-box-demo/'.</msg>
+<arg>${URL_PESQUISA}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-23T10:46:32.691451" elapsed="1.558732"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:36.250536" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:34.250183" elapsed="2.000353"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:36.251039" level="INFO">Typing text 'Danville' into text field 'name=SearchDualList'.</msg>
+<arg>${CAIXA_DE_TEXTO_DE_PESQUISA}</arg>
+<arg>Danville</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-23T10:46:36.250536" elapsed="0.074976"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>${Kedungjenar}</arg>
+<arg>3s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2026-05-23T10:46:36.325512" elapsed="0.055820"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:38.381506" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:36.381332" elapsed="2.000174"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-23T10:46:38.381506" elapsed="2.132288"/>
+</kw>
+<status status="PASS" start="2026-05-23T10:46:32.690879" elapsed="7.823246"/>
+</test>
+<test id="s1-t2" name="Teste se Mynamaki some ao pesquisar Danville" line="24">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:40.514125" level="INFO">Opening browser 'chrome' to base url 'https://www.testmuai.com/selenium-playground/bootstrap-dual-list-box-demo/'.</msg>
+<arg>${URL_PESQUISA}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-23T10:46:40.514125" elapsed="1.275052"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:43.790212" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:41.789680" elapsed="2.000532"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:43.790212" level="INFO">Typing text 'Danville' into text field 'name=SearchDualList'.</msg>
+<arg>${CAIXA_DE_TEXTO_DE_PESQUISA}</arg>
+<arg>Danville</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-23T10:46:43.790212" elapsed="0.064903"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" owner="SeleniumLibrary">
+<arg>${Mynamaki}</arg>
+<arg>3s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" start="2026-05-23T10:46:43.855115" elapsed="0.013869"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:45.870075" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:43.868984" elapsed="2.001091"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-23T10:46:45.870075" elapsed="2.127364"/>
+</kw>
+<status status="PASS" start="2026-05-23T10:46:40.514125" elapsed="7.484031"/>
+</test>
+<test id="s1-t3" name="Teste se Danville continua visivel ao pesquisar Danville" line="32">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:47.998991" level="INFO">Opening browser 'chrome' to base url 'https://www.testmuai.com/selenium-playground/bootstrap-dual-list-box-demo/'.</msg>
+<arg>${URL_PESQUISA}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-23T10:46:47.998991" elapsed="1.226935"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:51.227478" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:49.227045" elapsed="2.000433"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:51.227478" level="INFO">Typing text 'Danville' into text field 'name=SearchDualList'.</msg>
+<arg>${CAIXA_DE_TEXTO_DE_PESQUISA}</arg>
+<arg>Danville</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-23T10:46:51.227478" elapsed="0.079681"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${Danville}</arg>
+<arg>3s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-05-23T10:46:51.307159" elapsed="0.013577"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:53.321125" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:51.320736" elapsed="2.000389"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-23T10:46:53.321125" elapsed="2.114861"/>
+</kw>
+<status status="PASS" start="2026-05-23T10:46:47.998156" elapsed="7.437830"/>
+</test>
+<test id="s1-t4" name="Teste de apresentação da mensagem &quot;Checked&quot; ao clicar no primeiro checkbox" line="40">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:55.435986" level="INFO">Opening browser 'chrome' to base url 'https://www.lambdatest.com/selenium-playground/checkbox-demo'.</msg>
+<arg>${URL_CHECK_BOX}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-23T10:46:55.435986" elapsed="1.347981"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:46:58.785327" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:56.783967" elapsed="2.001360"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:58.785327" level="INFO">Clicking element 'xpath=//input[@type='checkbox']'.</msg>
+<arg>${PRIMEIRO_CHECKBOX}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-23T10:46:58.785327" elapsed="0.087137"/>
+</kw>
+<kw name="Checkbox Should Be Selected" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:58.872464" level="INFO">Verifying checkbox 'xpath=//input[@type='checkbox']' is selected.</msg>
+<arg>${PRIMEIRO_CHECKBOX}</arg>
+<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<status status="PASS" start="2026-05-23T10:46:58.872464" elapsed="0.074014"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:46:58.947211" level="INFO">Verifying element 'xpath=//div[@id='__next']/div/main/div/section/div/div/div/p' contains exact text 'Checked!'.</msg>
+<arg>${MENSAGEM_CHECKBOX}</arg>
+<arg>Checked!</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2026-05-23T10:46:58.947211" elapsed="0.012467"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:47:00.960876" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:46:58.959678" elapsed="2.001198"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-23T10:47:00.960876" elapsed="2.085996"/>
+</kw>
+<status status="PASS" start="2026-05-23T10:46:55.435986" elapsed="7.611625"/>
+</test>
+<test id="s1-t5" name="Teste de acesso ao google.com" line="49">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:47:03.048116" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<arg>https://www.google.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-23T10:47:03.048116" elapsed="1.221725"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-23T10:47:06.271710" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-23T10:47:04.270839" elapsed="2.000871"/>
+</kw>
+<kw name="Title Should Contain">
+<kw name="Get Title" owner="SeleniumLibrary">
+<msg time="2026-05-23T10:47:06.274831" level="INFO">${title} = Google</msg>
+<var>${title}</var>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2026-05-23T10:47:06.271710" elapsed="0.003121"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${title}</arg>
+<arg>${substr}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-05-23T10:47:06.274831" elapsed="0.000000"/>
+</kw>
+<arg>Google</arg>
+<status status="PASS" start="2026-05-23T10:47:06.271710" elapsed="0.003121"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-23T10:47:06.274831" elapsed="2.099429"/>
+</kw>
+<status status="PASS" start="2026-05-23T10:47:03.048116" elapsed="5.326144"/>
+</test>
+<status status="PASS" start="2026-05-23T10:46:32.438730" elapsed="35.935530"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Web" id="s1" pass="5" fail="0" skip="0">Web</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
